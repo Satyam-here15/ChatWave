@@ -3,7 +3,7 @@ import axios from 'axios';
 import { io } from 'socket.io-client';
 import { useAuth } from '../context/AuthContext';
 
-const API = 'http://localhost:5000';
+const API = 'https://chatwave-uc7s.onrender.com';
 
 const COLORS = ['#7c3aed', '#06b6d4', '#f59e0b', '#10b981', '#ef4444', '#ec4899', '#8b5cf6', '#14b8a6'];
 
